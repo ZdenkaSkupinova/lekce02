@@ -1,5 +1,8 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+h1 {
+    border: 13px dotted red;
+}
 
 
